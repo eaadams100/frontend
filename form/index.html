@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTCAMP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            <h1>Bootcamp Registration Form</h1>
+        <p class="note">Complete this form to exprss your interest in the upcoming web<br> development bootcamp.</p>
+        </div>
+    <form action="#">
+        <fieldset class="f1">
+            <legend>Contact Details</legend>
+           <div class="tbl-1">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <input type="text" name="fullname" id="fullname" placeholder="Ophy Boamah">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <input type="email" name="email" id="email" placeholder="ob2@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>
+                        <input type="text" name="num" id="num" placeholder="+233 200001212">
+                    </td>
+                </tr>
+            </table>
+           </div>
+        </fieldset>
+
+        <fieldset class="f2">
+            <legend>Personal Information</legend>
+            <div class="tbl-2">
+                <table>
+                    <tr>
+                        <td>Birth Date</td>
+                        <td>
+                            <input type="date" name="bday" id="bday">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="gender">Gender ??</td>
+                        <td>
+                            <select name="gender" id="gender">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="NotSay">Rather Not Say</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="proficiency">Proficiency</td>
+                        <td>
+                            <input type="range" name="proficiency" id="proficiency">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </fieldset>
+        <input type="checkbox" name="agree" id="agree">
+        <p class="agree">I have read and agree to the terms and conditions</p><br>
+
+        <input type="button" value="Submit" id="submit">
+        
+        
+    </form>
+    </div>
+
+    
+</body>
+</html>
